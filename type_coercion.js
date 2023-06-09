@@ -47,6 +47,6 @@ function complexSwitch(arg) {
   }
 }
 
-console.log(complexSwitch("false"));
+console.log(complexSwitch(10 > 1));
 
 console.log(undefined == true);
