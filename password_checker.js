@@ -4,7 +4,7 @@
 // letter, at least one lowercase letter, and at least one number. If the password meets all the requirements,
 // return "Valid Password".
 
-const pwd = "1:5j):hagd:As";
+const pwd = "1:5jAZSFZsds*~";
 
 function passwordChecker(password) {
   // flags for the requirements
@@ -21,8 +21,6 @@ function passwordChecker(password) {
 
     for (const letter of cleanPwd) {
       if (!isNaN(letter)) {
-        // break when find a number otherwise it will be consider uppercase
-        // and will give a false uppercase
         hasNum = true;
       } else if (letter === letter.toUpperCase()) {
         hasUpper = true;
