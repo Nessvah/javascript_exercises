@@ -17,7 +17,7 @@ function complexSwitch(arg) {
   // if a value is false, it will not enter on the switch
   // and will go to the default
   switch (true) {
-    case arg === true:
+    case arg == true:
       return "Boolean true";
       break;
     case arg === false:
@@ -47,6 +47,6 @@ function complexSwitch(arg) {
   }
 }
 
-console.log(complexSwitch(10 > 1));
+console.log(complexSwitch());
 
 console.log(undefined == true);
